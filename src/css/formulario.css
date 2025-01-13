@@ -1,0 +1,76 @@
+    h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #D84040;
+}
+
+#pedido {
+    background-color: #FFF6B3;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FF9D23;
+    color: white;
+    border-style: solid; 
+    border-color: black; 
+    border-radius: 15px;
+    display: block;
+    margin: 50px auto; 
+    font-size: 16px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #E77F19; 
+}
+/*pie de pagina */
+
+footer {
+    background-color: #E77F19;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
