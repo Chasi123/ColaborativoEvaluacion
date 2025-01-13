@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="src/css/formulario.css">
+    <title>Home</title>
 </head>
 <body>
+ 
     
+     <!--Formulario -->
+     <section id="pedido">
+        <h2>Realiza tu Pedido</h2>
+            <label for="comida">Elige tu comida:</label>
+            <select id="comida" name="comida" required>
+                <option value="hamburguesa">Hamburguesa</option>
+                <option value="pizza">Pizza</option>
+                <option value="hot-dog">Hot Dog</option>
+            </select>
+
+            <label for="tamano">Tamaño:</label>
+            <select id="tamano" name="tamano" required>
+                <option value="pequeno">Pequeño</option>
+                <option value="mediano">Mediano</option>
+                <option value="grande">Grande</option>
+            </select>
+
+            <label for="nombre">Tu Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <button type="submit">Realizar Pedido</button>
+        </form>
+    </section>
+
+     <!--Pie de pagina-->
+
+     <footer>
+        <div class="footer-content">
+            <p>   Comida Rápida. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/comidarapida" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com/comidarapida" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/comidarapida" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
